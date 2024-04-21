@@ -6,7 +6,7 @@
 
 Analyzer is a compact, ready to use, data analyzer that specializes in analyzing .csv files.
 
-_**Please note that project is not intended for commercial use and is intended for educational purposes only**_
+_**Please note that this project is not intended for commercial use and is intended for educational purposes only**_
 
 ## Features
 
@@ -118,10 +118,6 @@ maximum()
 ## Contact Information:
 
 Email: danielyonkeucheunko@cmail.carleton.ca
-
-## License
-
-MIT
 
 [Python3]: https://www.python.org/downloads/
 [here]: https://www.digitalocean.com/community/tutorials/install-python-windows-10
