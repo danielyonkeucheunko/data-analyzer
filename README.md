@@ -1,4 +1,5 @@
 # Analyzer Version 1.0 11/12/2022
+
 ## _The Only Data Analyzer You Need!_
 
 ---
@@ -17,9 +18,9 @@ A Comma Separated Values (CSV) file is a plain text file that contains a list of
 
 Analyzer uses a number of libraries to function properly:
 
-- [Numpy] - HTML enhanced for web apps!
-- [Scipy] - awesome web-based text editor
-- [Matplotlib] - Markdown parser done right. Fast and easy to extend.
+- [Numpy] - Powerful numerical computing library for Python
+- [Scipy] - Comprehensive scientific computing toolkit for Python
+- [Matplotlib] - Versatile plotting library for Python visualizations across various formats
 
 ## Installation
 
@@ -29,9 +30,17 @@ If you do not have Python 3 installed click [here] for an in-depth tutorial.
 
 We recommend [Wing101] if you are in need of an IDE.
 
+To install the required dependencies run this command below in the terminal:
+
+```
+pip install -r requirements.txt
+```
+
 ## Usage
+
 Analyzer uses text UI to display its commands and register inputs.
 Note: you must use the load data command before before any of the other commands are able to function
+
 ```
         1. L)oad Data
         2. S)ort Data
@@ -45,11 +54,13 @@ Note: you must use the load data command before before any of the other commands
         5. B)est  _____ for Grades
                 'Age'    'StudyTime'    'Failures'    'Health'    'Absences'
         6. Q)uit
-Please type your command: 
+Please type your command:
 ```
+
 Analyzer can also use batch files to register inputs.
 Each input has to be seperated by a semi-colon.
 An Example of this can be seen below
+
 ```
 L;student-mat.csv;Age
 s;Health;N
@@ -59,11 +70,12 @@ h;StudyTime
 Q
 ```
 
-
 ## Credits
+
 Credit to the team behind Analyzer:
 
 ### Daniel Yonkeu-Cheunko:
+
 ```sh
 student_failures_dictionary()
 load_data()
@@ -101,17 +113,17 @@ histogram()
 maximum()
 ```
 
+## Contact Information:
 
-## Contact Informtion:
-Phone: 613-312-7427
 Email: danielyonkeucheunko@cmail.carleton.ca
 
 ## License
+
 MIT
 
-   [Python3]: <https://www.python.org/downloads/>
-   [here]: <https://www.digitalocean.com/community/tutorials/install-python-windows-10>
-   [Wing101]: <https://wingware.com/downloads/wing-101>
-   [Numpy]: <https://numpy.org/install/>
-   [Scipy]: <https://scipy.org/install/>
-   [Matplotlib]: <https://matplotlib.org/stable/users/installing/index.html>
+[Python3]: https://www.python.org/downloads/
+[here]: https://www.digitalocean.com/community/tutorials/install-python-windows-10
+[Wing101]: https://wingware.com/downloads/wing-101
+[Numpy]: https://numpy.org/install/
+[Scipy]: https://scipy.org/install/
+[Matplotlib]: https://matplotlib.org/stable/users/installing/index.html
