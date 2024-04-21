@@ -6,6 +6,8 @@
 
 Analyzer is a compact, ready to use, data analyzer that specializes in analyzing .csv files.
 
+_**Please note that project is not intended for commercial use and is intended for educational purposes only**_
+
 ## Features
 
 - Load a .csv file and sort it according to certain attributes
